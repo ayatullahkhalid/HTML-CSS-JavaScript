@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: Raleway, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #282829;
+}
+
+p {
+  text-align: center;
+}
+
+.btn {
+  width: 100%;
+  color: #fff;
+  background: #282829;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 12px;
+  padding: 10px 12px;
+  border: 0;
+  font-family: Raleway, serif;
+}
+
+.money-img {
+  width: 150px;
+}
+
+.currency {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.currency select {
+  padding: 10px 20px 10px 3px;
+  border-radius: 10px;
+  border: 1px solid #dedede;
+  font-size: 16px;
+  background: transparent;
+  font-family: Raleway, serif;
+}
+
+.currency input {
+  border: 0;
+  background: transparent;
+  font-size: 30px;
+  text-align: right;
+  font-family: Raleway, serif;
+}
+
+.swap-rate-container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rate {
+  color: #282829;
+  text-align: center;
+  font-size: 14px;
+  padding: 6px 10px;
+  font-weight: 900;
+}
+
+select:focus,
+input:focus,
+button:focus {
+  outline: 0;
+}
+
+@media (max-width: 600px) {
+  .currency input {
+    width: 200px;
+  }
+}
